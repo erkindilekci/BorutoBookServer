@@ -19,8 +19,6 @@ In order to get all the heroes in single request use this endpoint.
 
 Endpoint: [/boruto/heroes](/boruto/heroes)
 
-Example : [https://boruto-server-api.herokuapp.com/boruto/heroes](https://boruto-server-api.herokuapp.com/boruto/heroes)
-
 Response
 ```jsonc
 {
@@ -69,9 +67,7 @@ In order to search a specific character you can use this endpoint
 
 you need to also pass a *Query parameter* **name**
 
-Endpoint: [/boruto/heroes/search?name=""](https://boruto-server-api.herokuapp.com/boruto/heroes/search?name=ki)
-
-Example : [https://boruto-server-api.herokuapp.com/boruto/heroes/search?name=naruto](https://boruto-server-api.herokuapp.com/boruto/heroes/search?name=naruto)
+Endpoint: [/boruto/heroes/search?name=naruto](/boruto/heroes/search?name=naruto)
 
 ```jsonc
 {
